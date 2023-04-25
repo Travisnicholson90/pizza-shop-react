@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.form-input {
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid green;
+    padding: 5px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    border-radius: 12px;
+    padding: 5px 10px;
+    background: green;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px rgb(175, 211, 175);
+
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    opacity: .5;
+}

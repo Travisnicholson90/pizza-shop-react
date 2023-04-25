@@ -1,0 +1,45 @@
+.header {
+    display: flex;  
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    background: rgba(179, 31, 31, 0.4);
+}
+
+.pizza {
+    width: 75px;
+}
+
+.pizza-img {
+    list-style: none;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    padding: .5rem 2.5rem;
+    list-style: none;
+}
+
+.header-list li {
+    font-size: 2rem;
+}
+
+.header-list li:nth-of-type(1) {
+    padding-right: 2rem;
+}
+
+.icon {
+   position: absolute;
+   right: 3rem;
+}
+
+.header-list li:hover,
+.header-list li:focus {
+    cursor: pointer;
+    opacity: .5;
+}

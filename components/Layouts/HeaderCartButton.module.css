@@ -1,0 +1,22 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    width: 75px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
+
+.number {
+    font-size: 1rem;
+    padding: .2rem .5rem;
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.button:hover,
+.button:focus {
+    opacity: .5;
+    cursor: pointer;
+}

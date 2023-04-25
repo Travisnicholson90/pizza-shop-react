@@ -1,0 +1,114 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    max-height: 40rem;
+    padding: 1rem 2rem;
+    width: 35rem;
+    margin-inline: auto;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(27, 25, 25, 0.9);
+    border-radius: 12px;
+}
+
+.cart{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem;
+}
+
+.item {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.cart-items {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.qty {
+    font-size: 1.5rem;
+}
+
+.add, 
+.remove {
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    padding: 0 8px;
+}
+
+.add:hover,
+.add:focus {
+    cursor: pointer;
+    border: 1px solid green;
+    background-color: green;
+}
+
+.remove:hover,
+.remove:focus {
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.price {
+    margin-left: auto;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-top: 4px solid rgb(0, 0, 255, .5);
+    padding-top: 1rem;
+}
+
+.cart {
+    justify-content: flex-start;
+    font-size: 2rem;
+}
+
+.finalise-cart {
+    display: flex;
+    padding: .5rem;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.finalise-cart button {
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    border-radius: 12px;
+    background-color: inherit;  
+}
+
+.checkout:hover,
+.checkout:focus {
+    cursor: pointer;
+    border: 1px solid green;
+    background-color: green;
+}
+
+.close:hover,
+.close:focus {
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: red;
+}
