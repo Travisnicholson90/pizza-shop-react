@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    width: 20rem;
+    height: 14rem;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.add-cart {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.add-cart p {
+    font-size: 1.8rem;
+}
+.minus-icon {
+    width: 30px;
+}
+.add-icon {
+    width: 30px;
+}
+
+.add-icon:hover,
+.minus-icon:hover {
+    cursor: pointer;
+    opacity: .5;
+}
